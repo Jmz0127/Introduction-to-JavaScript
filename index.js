@@ -36,6 +36,17 @@ Do the following:
 
    HINT: no function required
 */
+var one = 1;
+var two = 4;
+
+// eslint-disable-next-line no-constant-condition
+// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-constant-condition
+if (two >= 3) {
+	console.log('task 1b', one + 3);
+} else {
+	console.log('task 1b', two);
+}
 
 /*
 Task 1c - Convert Strings to Numbers
