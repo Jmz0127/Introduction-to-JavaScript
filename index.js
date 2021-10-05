@@ -37,13 +37,13 @@ Do the following:
    HINT: no function required
 */
 var one = 1;
-var two = 4;
+var two = 8;
 
 // eslint-disable-next-line no-constant-condition
 // eslint-disable-next-line no-unused-vars
 // eslint-disable-next-line no-constant-condition
-if (two >= 3) {
-	console.log('task 1b', one + 3);
+if (two >= 4) {
+	console.log('task 1b', one + 5);
 } else {
 	console.log('task 1b', two);
 }
@@ -58,7 +58,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let theYear = '1999';
+Number(theYear);
+console.log('task 1c', theYear);
 /*
 Task 1d - Multiply
  
